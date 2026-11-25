@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy for Clipo — clipo.info</title>
+  <meta name="description" content="Official Privacy Policy for Clipo (com.clipo.clipo). Offline-first bookmark &amp; Reel organizer with 100% local storage, no account required, and transparent Google AdMob disclosure." />
+  <link rel="canonical" href="https://clipo.info/privacy.html" />
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="apple-touch-icon" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand-link" href="./">
+        <img src="assets/icon.png" alt="Clipo app icon" width="36" height="36" />
+        <span class="brand-name">Clipo</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="./#moments">Why Clipo</a>
+        <a href="./#how-it-works">How it Works</a>
+        <a href="./#features">Features</a>
+        <a href="./#screenshots">Screenshots</a>
+        <a href="privacy.html" style="color: var(--brand-blue);">Privacy Policy</a>
+      </nav>
+
+      <a class="nav-cta nav-cta-desktop" href="https://play.google.com/store/apps/details?id=com.clipo.clipo&amp;pcampaignid=web_share" target="_blank" rel="noopener">
+        Get on Google Play
+      </a>
+    </div>
+  </header>
+
+  <section class="doc-hero">
+    <div class="container">
+      <h1>Privacy Policy for Clipo</h1>
+      <p>Effective date: November 2026 &bull; App Package: <code>com.clipo.clipo</code> &bull; Website: <a href="https://clipo.info" style="text-decoration: underline;">clipo.info</a></p>
+    </div>
+  </section>
+
+  <main class="doc-main">
+    <div class="container">
+      <article class="doc-card">
+        <div class="doc-highlight">
+          <strong>Plain-English Summary:</strong> Clipo is an offline-first mobile application. <strong>We do not operate user accounts or cloud servers for your bookmarks.</strong> Every link, Reel, post, note, folder, and reminder you save stays 100% locally on your device.
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>
+          This Privacy Policy explains how <strong>Clipo</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;the app&rdquo;) handles information when you use the Clipo Android application and visit <a href="https://clipo.info">clipo.info</a>. Clipo is built with a privacy-by-design, local-first architecture.
+        </p>
+
+        <h2>2. Data Collection &amp; Usage</h2>
+        <p><strong>Clipo does NOT collect, transmit, or sell your personal bookmarks or saved content.</strong> Specifically:</p>
+        <ul>
+          <li><strong>No Account Required:</strong> You do not need to sign up, log in, or provide your name, email address, or phone number to use Clipo.</li>
+          <li><strong>No Custom Tracking or Profiling Servers:</strong> We do not run backend servers to collect your reading history, saved URLs, folders, tags, or notes.</li>
+          <li><strong>Advertising (Google AdMob &amp; Consent):</strong> To keep Clipo free for everyone, the app displays advertisements powered by the <strong>Google Mobile Ads SDK (AdMob)</strong>. Depending on your region and consent choices (managed via Google&rsquo;s User Messaging Platform / GDPR consent dialog), Google AdMob may collect and process your device&rsquo;s Advertising ID (<code>com.google.android.gms.permission.AD_ID</code>), approximate location derived from IP address, and ad performance diagnostics to serve and measure ads, in accordance with <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google&rsquo;s Privacy &amp; Terms</a>. You can review or update your ad privacy preferences anytime inside Clipo under <strong>Settings &rarr; Ad Privacy Preferences</strong>. Your saved links, notes, collections, and clipboard contents are <strong>never</strong> shared with AdMob or any third party.</li>
+        </ul>
+
+        <h2>3. How Your Saved Content Is Handled</h2>
+        <ul>
+          <li><strong>100% Local Storage:</strong> All saved URLs, social post links, personal notes, custom folders, tags, reminders, and cached thumbnails are stored strictly inside a local SQLite database sandboxed on your Android device.</li>
+          <li><strong>Direct Link Preview Fetching:</strong> When you save a URL, Clipo connects directly from your device over HTTPS to the public webpage or public oEmbed endpoint (for example YouTube, TikTok, Instagram, Reddit, or a news site) solely to fetch its public title, description, and preview thumbnail. These requests go directly from your device to the target website and never pass through any server operated by us.</li>
+        </ul>
+
+        <h2>4. Android Permissions Explained</h2>
+        <ul>
+          <li><strong>Internet Access (<code>INTERNET</code>):</strong> Used on demand to fetch public link previews/thumbnails for URLs you choose to save, and by Google AdMob to load ads.</li>
+          <li><strong>Clipboard (Foreground &amp; Opt-In):</strong> Clipo only checks for a copied link when you explicitly tap &ldquo;Paste&rdquo;, when suggesting a copied URL while the app is open, or if you manually turn on automatic clipboard capture in Settings (off by default). Clipboard text never leaves your device.</li>
+          <li><strong>Notifications &amp; Boot Receiver (<code>POST_NOTIFICATIONS</code>, <code>RECEIVE_BOOT_COMPLETED</code>):</strong> Used solely to deliver local &ldquo;Watch / Read Later&rdquo; reminders you explicitly schedule and to restore those local alarms if your phone restarts.</li>
+          <li><strong>Biometric Unlock (Optional):</strong> If you enable app lock, authentication is handled entirely by Android&rsquo;s native BiometricPrompt system. Clipo never accesses, reads, or stores biometric data.</li>
+          <li><strong>Storage Access Framework (Backup Export / Import):</strong> When you choose to export or restore a backup (<code>.json</code> or <code>.zip</code>), Android&rsquo;s system file picker grants access only to the specific file you select.</li>
+        </ul>
+
+        <h2>5. Data Retention &amp; Deletion</h2>
+        <p>Because your library lives exclusively on your device, you have total control at all times:</p>
+        <ul>
+          <li>Delete any individual saved item, empty the 30-day Trash, or use <strong>Factory Reset</strong> inside Settings to permanently erase all local data immediately.</li>
+          <li>Uninstalling Clipo permanently removes its local database from your device.</li>
+          <li>Export a portable local backup (<code>.json</code> or <code>.zip</code>) anytime from Settings.</li>
+        </ul>
+
+        <h2>6. Children&rsquo;s Privacy</h2>
+        <p>
+          Clipo does not knowingly collect personal information from children under the age of 13 (or the applicable age of digital consent in your jurisdiction). If you believe a child has provided us with personal information via support email, please contact us so we can delete it promptly.
+        </p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time to reflect app improvements or legal requirements. Any updates will be posted on this page (<a href="https://clipo.info/privacy.html">clipo.info/privacy.html</a>) with an updated effective date.
+        </p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions, requests, or feedback regarding this Privacy Policy or Clipo, contact us at:</p>
+        <p>
+          <strong>Email:</strong> <a href="mailto:mzzh78@gmail.com">mzzh78@gmail.com</a><br />
+          <strong>Website:</strong> <a href="https://clipo.info">https://clipo.info</a>
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a class="footer-brand" href="./">
+          <img src="assets/icon.png" alt="Clipo logo" width="34" height="34" />
+          <span>Clipo</span>
+        </a>
+        <div class="footer-links">
+          <a href="./">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="mailto:mzzh78@gmail.com">mzzh78@gmail.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Clipo &bull; clipo.info. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
